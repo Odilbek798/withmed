@@ -19,6 +19,8 @@ import Products from '/public/products.json'
             </div>
         </div>
     </section>
+
+    
     </>
   )
 }

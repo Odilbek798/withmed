@@ -37,14 +37,14 @@ const Hero = () => {
       </div>
       </div>
 
-
     <div className={s.last}>
       <img src="/versage.png" alt="" />
-      <img src="/zara.png" alt="" />
+      <img className={s.zara} src="/zara.png" alt="" />
       <img src="/gucci.png" alt="" />
       <img src="/prada.png" alt="" />
       <img src="/calvin.png" alt="" />
     </div>
+
     </div>
    </section>
 
