@@ -1,6 +1,5 @@
 .hero{
     background-color: #F2F0F1;
-    padding-top: 30px        ;
 }
 
 .main_hero{
@@ -69,10 +68,11 @@
 }
 .last{
     background-color: black;
-    width: 1330px;
+    width: 1470px;
     display: flex;
     gap: 20px;
     padding: 20px;
+    margin-left: -156px;
     img{
         @media (max-width:550px) {
              width: 120px;
