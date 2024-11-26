@@ -13,7 +13,7 @@ import Products from '/public/products.json'
             <SectionTitle orient="center">NEW ARRIVALS</SectionTitle>
             <div className={s.wrapper}>
 
-                {Productsюslice(0, 4).map(card =>(
+                {Products.slice(0, 4).map(card =>(
                     <Card key={card.id} image={card.image} name={card.name} price={card.price}/>
                 ))}
             </div>

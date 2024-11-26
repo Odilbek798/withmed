@@ -7,7 +7,9 @@
 .text{
     display: flex;
     gap: 150px;
-    
+    @media (max-width:550px) {
+        justify-content: start;
+    }
 }
 .all{
     display: flex;
