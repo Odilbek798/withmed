@@ -38,7 +38,8 @@ const ShopWrap = ( {text, image}) => {
                 <img className={s.star} src="./stars.png" alt="" />
                     <h3>Sarah M<img src="./galochka.png" alt="" /></h3>
                     
-                    <p>"I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses,
+                    <p>"I'm blown away by the quality and style of the clothes I received from Shop.co.
+                         From casual wear to elegant dresses,
                      every piece I've bought has exceeded my expectations.”</p>
                      <p className={s.posted}>Posted on August 14, 2023</p>
                     </div>
@@ -46,7 +47,8 @@ const ShopWrap = ( {text, image}) => {
                     <div className={s.medias}>
                         <img className={s.star} src="./stars.png" alt="" />
                         <h3>James L<img src="./galochka.png" alt="" /></h3>
-                        <p>"I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses,
+                        <p>"I'm blown away by the quality and style of the clothes I received from Shop.co.
+                             From casual wear to elegant dresses,
                         every piece I've bought has exceeded my expectations.”</p>  
                         <p className={s.posted}>Posteed on August 14, 2023</p> 
                         </div>
@@ -55,7 +57,8 @@ const ShopWrap = ( {text, image}) => {
                     <div className={s.medias}>
                         <img className={s.star} src="./stars.png" alt="" />
                         <h3>James L<img src="./galochka.png" alt="" /></h3>
-                        <p>"I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses,
+                        <p>"I'm blown away by the quality and style of the clothes I received from Shop.co.
+                             From casual wear to elegant dresses,
                         every piece I've bought has exceeded my expectations.”</p>  
                         <p className={s.posted}>Posteed on August 14, 2023</p> 
                         </div>
@@ -67,7 +70,8 @@ const ShopWrap = ( {text, image}) => {
                 <img className={s.star} src="./stars.png" alt="" />
                     <h3>Sarah M<img src="./galochka.png" alt="" /></h3>
                     
-                    <p>"I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses,
+                    <p>"I'm blown away by the quality and style of the clothes I received from Shop.co. 
+                        From casual wear to elegant dresses,
                      every piece I've bought has exceeded my expectations.”</p>
                      <p className={s.posted}>Posted on August 14, 2023</p>
                     </div>
@@ -75,7 +79,8 @@ const ShopWrap = ( {text, image}) => {
                     <div className={s.medias}>
                         <img className={s.star} src="./stars.png" alt="" />
                         <h3>James L<img src="./galochka.png" alt="" /></h3>
-                        <p>"I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses,
+                        <p>"I'm blown away by the quality and style of the clothes I received from Shop.co.
+                             From casual wear to elegant dresses,
                         every piece I've bought has exceeded my expectations.”</p>  
                         <p className={s.posted}>Posted on August 14, 2023</p> 
                     </div>
@@ -84,7 +89,8 @@ const ShopWrap = ( {text, image}) => {
                     <div className={s.medias}>
                 <img className={s.star} src="./stars.png" alt="" />
                     <h3>Sarah <img src="./galochka.png" alt="" /></h3>
-                    <p>"I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses,
+                    <p>"I'm blown away by the quality and style of the clothes I received from Shop.co.
+                         From casual wear to elegant dresses,
                      every piece I've bought has exceeded my expectations.”</p>
                      <p className={s.posted}>Posted on August 14, 2023</p>
 
