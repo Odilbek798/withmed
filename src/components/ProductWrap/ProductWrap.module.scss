@@ -7,22 +7,45 @@
     }
 }
 .images{
-    display: grid;
-    grid-template-columns: 1 fr 3fr;
-    gap: 15px;
+    display: flex;
     div{
         display: flex;
         flex-direction: column;
         gap: 15px;
-    }
+        @media(max-width:550px){
+            flex-direction: row;
+        }
     img{
-        width: 100%;
-        height: 100%;
-        border-radius: 20px;
-        object-fit: cover;
+        width: 180px;
+        height: 230px;
+        border-radius: 15px;
+    }
+    }
+    .gr{
+        padding-left: 20px;
+        width: 535px;
+        height: 700px;
+        @media(max-width:550px){
+            display: none;
+        }
+    }
+    @media(max-width:768px){
+        flex-direction: column;
     }
 }
+.gl{
+    display: none;
 
+    @media(max-width:550px){
+        display: flex;
+        padding-left: 10px;
+        width: 550px;
+        height: 700px;
+        margin-bottom: 10px;
+        border-radius: 20px;
+    }
+
+}
 .box{
     display: flex;
     flex-direction: column;
@@ -34,6 +57,7 @@
         display: flex;
         flex-direction: column;
         gap: 15px;
+        
         &:nth-child(1){
             h2{
                 font-size: 40px;
@@ -92,5 +116,245 @@
                 }
             }
         }
+    }
+}
+.btns{
+    button{
+        width: 90px;
+        padding: 15px;
+        border-radius: 25px;
+        text-wrap: nowrap;
+        margin: 0 5px;
+        border: none;
+    }
+}
+.add_card{
+    position: relative;
+
+    .mini{
+
+        width: 120px;
+        font-size: 20px;
+        border-radius: 15px;
+        height: 40px;
+        border: none;
+        span{
+            padding: 0 20px;
+        }
+    }
+    .huge{
+        position: absolute;
+        top: -4px;
+        right: -15px;
+        left: 130px;
+        width: 300px;
+        border-radius: 20px;
+        background-color: black;
+        color: white;
+        height: 43px;
+        margin-left: 20px;
+    }
+}
+
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding: 20px;
+    border: 1px solid #eae8e8;
+    border-radius: 20px;
+    margin: 20px;
+    h3{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+    .star{
+        width: 150px;
+    }
+    p{
+        color: rgb(173, 173, 173)
+    }
+    .posted{
+        padding: 20px 0;
+    }
+}
+.otzivs{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 20px;
+}
+.title_top{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 60px;
+    padding-top: 70px;
+    h2{
+        span{
+            color: rgb(173, 173, 173);
+            font-size: small;
+        }
+    }
+    .btn1{
+        height: 40px;
+        width: 40px;
+        border:none;
+        border-radius: 20px;
+        img{
+            width: 20px;
+        }
+    }
+    .btn2{
+        width: 80px;
+        height: 45px;
+        border: none;
+        border-radius: 25px;
+        margin: 0 20px;
+    }
+    .btn3{
+        width: 110px;
+        height: 45px;
+        border: none;
+        border-radius: 25px;
+        text-wrap: nowrap;
+        background-color: black;
+        color: white;
+        padding: 5px 10px;
+    }
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    button{
+        width: 150px;
+        padding: 10px;
+        border: 2px solid rgb(234, 232, 232);
+        background-color: white;
+        border-radius: 20px;
+    }
+}
+.props{
+    display: flex;
+    justify-content: center;
+}
+.h1{
+    font-size: 60px;
+    text-align: center;
+    padding: 40px 0;
+}
+.stay{
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+    background-color: black;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 40px auto;
+    h1{
+        font-size: 40px;
+        max-width: 530px;
+        color: white;
+    }
+    .email{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        gap: 10px;
+        input{
+            width: 335px;
+            padding: 10px 30px;
+            border-radius: 20px;
+            background-color: white;
+            background-image: url(./pochta.png);
+            background-repeat: no-repeat;
+            background-position: left;
+            color: black;
+        }
+        button{
+            width: 400px;
+            padding: 10px 30px;
+            border-radius: 20px;
+            background-color: white;
+            color: black;
+            
+        }
+        
+    }
+    @media(max-width: 550px){
+        display: flex;
+        flex-direction: column;
+        width: 430px;
+        justify-content: center;
+        
+    }
+}
+.shop{
+    width: 250px;
+    @media (max-width:550px) {
+        width: 400px;
+    }
+}
+.text{
+    display: flex;
+    gap: 150px;
+    @media (max-width:550px) {
+        justify-content: start;
+    }
+}
+.all{
+    display: flex;
+    p{
+        padding: 10px 0;
+    }
+    @media (max-width:550px) {
+        display: grid;
+        grid-template-columns: 1, 1fr;
+    }
+}
+.line{
+    img{
+        width: 1250px;
+        background-color: #f2f2f2;
+        height: 2px;
+        @media (max-width:550px) {
+            width: 480px;
+        }
+    }
+}
+.first{
+    display: flex;
+    gap: 90px;
+    @media (max-width: 550px) {
+        flex-direction: column;
+    }
+
+}
+.h1{
+    @media (max-width:550px) {
+        max-width: 300px;
+    }
+}
+.second{
+    display: flex;
+    gap: 90px;
+    @media (max-width: 550px) {
+        flex-direction: column;
+    }
+}
+.bom{
+    display: flex;
+    justify-content: space-between;
+
+}
+.del{
+    @media (max-width: 550px) {
+        display: none;
+    }
+}
+.otziv{
+    @media (max-width: 550px) {
+        margin-left: 100px;
     }
 }
