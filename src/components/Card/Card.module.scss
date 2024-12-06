@@ -7,6 +7,9 @@
         border-radius: 20px;
         display: block;
 
+        aspect-ratio: 1/1.5;
+        object-fit: cover;
+
         &:nth-child(1){
             aspect-ratio: 1;
             object-position: center;
@@ -19,5 +22,24 @@
     }
     b{
         font-size: 24px;
+    }
+}
+.stars {
+    display: flex;
+    gap: 5px;
+    cursor: pointer;
+
+    span {
+        font-size: 20px;
+        color: gray; // Цвет неактивных звёзд
+        transition: color 0.3s ease;
+    }
+
+    .activeStar {
+        color: gold; // Цвет активных звёзд
+    }
+
+    .inactiveStar {
+        color: gray; // Цвет неактивных звёзд
     }
 }

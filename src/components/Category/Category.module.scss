@@ -3,3 +3,49 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
 }
+
+
+.link{
+    text-decoration: none;
+    color: black;
+
+}
+.stars {
+    display: flex;
+    gap: 5px;
+    cursor: pointer;
+
+    span {
+        font-size: 20px;
+        color: gray; // Цвет неактивных звёзд
+        transition: color 0.3s ease;
+    }
+
+    .activeStar {
+        color: gold; // Цвет активных звёзд
+    }
+
+    .inactiveStar {
+        color: gray; // Цвет неактивных звёзд
+    }
+}
+
+
+.wrapper{
+    display: grid;
+    // grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+    gap: 20px;
+
+}
+
+.card{
+    
+}
+
+
+.link {
+    text-decoration: none;
+    color: black;
+}
